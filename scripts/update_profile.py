@@ -12,6 +12,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import concurrent.futures
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
@@ -185,6 +186,7 @@ def project_markup(repos):
 
 def activity_markup(events):
     lines = []
+    seen_pushes = set()
     for event in events:
         if not event.get("public", False):
             continue
@@ -197,6 +199,10 @@ def activity_markup(events):
         kind = event.get("type")
         label = None
         if kind == "PushEvent":
+            key = (date, name.lower())
+            if key in seen_pushes:
+                continue
+            seen_pushes.add(key)
             label = f'Pushed code to [{md(name)}]({url})'
         elif kind == "PullRequestEvent":
             pr = payload.get("pull_request", {})
@@ -246,9 +252,15 @@ def main():
     calendar = response["data"]["user"]["contributionsCollection"]["contributionCalendar"]
     languages = collections.Counter()
     sample = repos[:40]
-    for repo in sample:
-        detected = api(f'/repos/{repo["full_name"]}/languages')
-        languages.update(detected)
+    
+    def fetch_lang(repo):
+        return api(f'/repos/{repo["full_name"]}/languages')
+
+    # Cria um pool de 10 "trabalhadores" para ir buscar as linguagens em simultâneo
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        for detected in executor.map(fetch_lang, sample):
+            if detected:  # Proteção extra caso a API falhe num repo
+                languages.update(detected)
     events = api(f"/users/{encoded}/events/public?per_page=100")
     text = (ROOT/"README.md").read_text(encoding="utf-8")
     days = [d for w in calendar["weeks"] for d in w["contributionDays"]]
