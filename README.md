@@ -156,7 +156,7 @@ Featured projects are ranked by stars, then forks — popularity belongs to the 
 ## ⚡ Development log
 
 <!-- ACTIVITY:START -->
-No recent public development events are available in the current feed.
+- `2026-10-13` · Published release [v2.2.1](https://github.com/D4rkpt/AutoLauncher-for-PaperMC/releases/tag/v2.2.1)
 <!-- ACTIVITY:END -->
 
 ## 👾 Commit arcade
