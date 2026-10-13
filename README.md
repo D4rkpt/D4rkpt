@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <samp>RODRIGO / PORTUGAL / AUTOMATION &amp; SOFTWARE</samp><br />
+  <samp>PORTUGAL / AUTOMATION &amp; SOFTWARE</samp><br />
   <sub>Engineering student. Practical projects. A little less friction, a lot more possibility.</sub>
 </p>
 
@@ -19,7 +19,7 @@
 
 ## 🧭 The person behind the code
 
-I'm Rodrigo, an Automation, Control and Instrumentation Engineering student in Portugal.
+I'm an Automation, Control and Instrumentation Engineering student in Portugal.
 I enjoy turning repetitive tasks into tools, building software that feels good to use,
 and figuring out why things break — then making them better.
 
