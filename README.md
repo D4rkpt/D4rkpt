@@ -81,7 +81,7 @@ These are the technologies I use or study — not a claim that I am an expert in
 </picture>
 
 <!-- SNAPSHOT:START -->
-<sub>Initial setup — the first workflow run will fetch the contribution calendar and refresh this dashboard.</sub>
+<sub>Last successful sync: 2026-10-13 UTC · Contribution period: 2025-10-12 → 2026-10-13 · Projects ordered by latest push.</sub>
 <!-- SNAPSHOT:END -->
 
 <picture>
@@ -118,7 +118,7 @@ Public projects, refreshed automatically. Start with the source — then make it
 <table>
 <tr>
 <td width="50%"><a href="https://github.com/D4rkpt/AutoLauncher-for-PaperMC"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-1-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-1.svg" /><img src="assets/project-1-dark.svg" width="100%" alt="AutoLauncher-for-PaperMC — open source repository" /></picture></a></td>
-<td width="50%"><a href="https://github.com/D4rkpt/ptgc"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-2-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-2.svg" /><img src="assets/project-2-dark.svg" width="100%" alt="ptgc — open source repository" /></picture></a></td>
+<td width="50%"><a href="https://github.com/D4rkpt/PTGC-Legal"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-2-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-2.svg" /><img src="assets/project-2-dark.svg" width="100%" alt="PTGC-Legal — open source repository" /></picture></a></td>
 </tr>
 </table>
 <!-- PROJECTS:END -->
@@ -160,7 +160,7 @@ Featured projects are ranked by stars, then forks — popularity belongs to the 
 ## ⚡ Development log
 
 <!-- ACTIVITY:START -->
-- The first workflow run will pull recent public activity here.
+No recent public development events are available in the current feed.
 <!-- ACTIVITY:END -->
 
 ## 👾 Commit arcade
