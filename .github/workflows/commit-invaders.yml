@@ -1,0 +1,33 @@
+name: Profile / Commit Arcade
+
+on:
+  schedule:
+    - cron: '47 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/commit-invaders.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-arcade
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+      - name: Generate contribution invaders
+        uses: Goblinlordx/commit-invaders@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: ${{ github.repository_owner }}
+          output_branch: output
+          output_file: commit-invaders.svg
+          no_scoreboard: 'false'

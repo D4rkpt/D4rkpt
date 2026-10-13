@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="D4RKPT developer mission control">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07101f"/><stop offset=".6" stop-color="#121329"/><stop offset="1" stop-color="#081724"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#67e8f9"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#67e8f9" stroke-opacity=".055"/></pattern>
+<style>.pulse{animation:pulse 5s ease-in-out infinite}.scan{animation:scan 7s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}@keyframes scan{0%,100%{opacity:.25}50%{opacity:.65}}@media(prefers-reduced-motion:reduce){.pulse,.scan{animation:none}}</style>
+</defs>
+<rect x="1" y="1" width="1198" height="358" rx="24" fill="url(#bg)" stroke="#25314a"/>
+<rect x="2" y="2" width="1196" height="356" rx="24" fill="url(#grid)"/>
+<path d="M55 85V55H85M1115 55H1145V85M55 275V305H85M1115 305H1145V275" fill="none" stroke="url(#accent)" stroke-width="2"/>
+<g class="scan" fill="none" stroke="#67e8f9"><path d="M0 235H85L120 200H205L240 235H310"/><path d="M890 120H960L995 85H1070L1105 120H1200"/><path d="M910 270H1000L1035 235H1200"/></g>
+<g fill="#67e8f9"><circle class="pulse" cx="205" cy="200" r="4"/><circle class="pulse" cx="995" cy="85" r="4"/><circle class="pulse" cx="1035" cy="235" r="4"/></g>
+<text x="600" y="82" text-anchor="middle" font-family="monospace" font-size="13" fill="#8da4bd" letter-spacing="5">DEVELOPER / MISSION CONTROL</text>
+<text x="600" y="186" text-anchor="middle" font-family="Arial, sans-serif" font-size="94" font-weight="800" letter-spacing="8" fill="url(#accent)">D4RKPT</text>
+<text x="600" y="235" text-anchor="middle" font-family="monospace" font-size="20" fill="#dbeafe" letter-spacing="3">CODE. AUTOMATE. BUILD. REPEAT.</text>
+<rect x="402" y="267" width="396" height="34" rx="17" fill="#101e31" stroke="#263650"/>
+<circle cx="426" cy="284" r="4" fill="#67e8f9" class="pulse"/>
+<text x="609" y="289" text-anchor="middle" font-family="monospace" font-size="11" fill="#bacbdd" letter-spacing="1">PORTUGAL · ENGINEERING · SOFTWARE</text>
+</svg>
