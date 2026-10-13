@@ -34,10 +34,6 @@ and figuring out why things break — then making them better.
 ## 🤖 Bring the bot to your server
 
 <p align="center">
-  <a href="https://discord.com/oauth2/authorize?client_id=1091890906329796618"><img src="assets/discord-bot.svg" width="100%" alt="Add my Discord bot — open the Discord authorization page" /></a>
-</p>
-
-<p align="center">
   <a href="https://discord.com/oauth2/authorize?client_id=1091890906329796618"><img src="https://img.shields.io/badge/ADD_TO_YOUR_SERVER-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Add my bot to your Discord server" /></a><br />
   <sub>Open Discord's authorization page to review the installation options and requested permissions.</sub>
 </p>
