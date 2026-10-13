@@ -69,7 +69,7 @@ These are the technologies I use or study — not a claim that I am an expert in
 </picture>
 
 <!-- SNAPSHOT:START -->
-<sub>Initial setup — the first workflow run will fetch the contribution calendar and refresh this dashboard.</sub>
+<sub>Last successful sync: 2026-10-13 UTC · Contribution period: 2025-10-12 → 2026-10-13 · Projects ordered by latest push.</sub>
 <!-- SNAPSHOT:END -->
 
 <picture>
@@ -117,7 +117,7 @@ Public projects, refreshed automatically. Start with the source — then make it
 ## ⚡ Development log
 
 <!-- ACTIVITY:START -->
-- The first workflow run will pull recent public activity here.
+No recent public development events are available in the current feed.
 <!-- ACTIVITY:END -->
 
 ## 👾 Commit arcade
