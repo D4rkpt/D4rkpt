@@ -4,7 +4,8 @@
 </p>
 
 <p align="center">
-  <a href="#-projects"><img src="https://img.shields.io/badge/EXPLORE_PROJECTS-101827?style=for-the-badge&amp;logo=github&amp;logoColor=67E8F9" alt="Explore projects" /></a>
+  <a href="#-personal-projects"><img src="https://img.shields.io/badge/EXPLORE_PROJECTS-101827?style=for-the-badge&amp;logo=github&amp;logoColor=67E8F9" alt="Explore projects" /></a>
+  <a href="https://discord.com/oauth2/authorize?client_id=1091890906329796618"><img src="https://img.shields.io/badge/ADD_MY_BOT-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Add my Discord bot to your server" /></a>
   <a href="https://github.com/D4rkpt?tab=repositories"><img src="https://img.shields.io/badge/SOURCE_CODE-101827?style=for-the-badge&amp;logo=git&amp;logoColor=C4B5FD" alt="Source code" /></a>
   <a href="#-commit-arcade"><img src="https://img.shields.io/badge/COMMIT_ARCADE-101827?style=for-the-badge&amp;logo=spaceinvaders&amp;logoColor=67E8F9" alt="Commit arcade" /></a>
   <a href="https://github.com/D4rkpt/D4rkpt/actions"><img src="https://img.shields.io/github/actions/workflow/status/D4rkpt/D4rkpt/profile-sync.yml?branch=main&amp;style=for-the-badge&amp;label=PROFILE%20SYNC&amp;color=67E8F9" alt="Profile sync status" /></a>
@@ -29,6 +30,17 @@ and figuring out why things break — then making them better.
 - 🧪 Learning through coursework, prototypes and real debugging sessions.
 
 > Build something useful. Make it clear. Make it faster. Keep iterating.
+
+## 🤖 Bring the bot to your server
+
+<p align="center">
+  <a href="https://discord.com/oauth2/authorize?client_id=1091890906329796618"><img src="assets/discord-bot.svg" width="100%" alt="Add my Discord bot — open the Discord authorization page" /></a>
+</p>
+
+<p align="center">
+  <a href="https://discord.com/oauth2/authorize?client_id=1091890906329796618"><img src="https://img.shields.io/badge/ADD_TO_YOUR_SERVER-5865F2?style=for-the-badge&amp;logo=discord&amp;logoColor=white" alt="Add my bot to your Discord server" /></a><br />
+  <sub>Open Discord's authorization page to review the installation options and requested permissions.</sub>
+</p>
 
 ## 🧬 Technology arsenal
 
@@ -69,7 +81,7 @@ These are the technologies I use or study — not a claim that I am an expert in
 </picture>
 
 <!-- SNAPSHOT:START -->
-<sub>Last successful sync: 2026-10-13 UTC · Contribution period: 2025-10-12 → 2026-10-13 · Projects ordered by latest push.</sub>
+<sub>Initial setup — the first workflow run will fetch the contribution calendar and refresh this dashboard.</sub>
 <!-- SNAPSHOT:END -->
 
 <picture>
@@ -90,14 +102,15 @@ These are the technologies I use or study — not a claim that I am an expert in
 
 - Contributions come from GitHub's contribution calendar API. Contributions are not the same as commits.
 - The project selection includes public, original, non-archived repositories and excludes this profile repository.
-- Stars are summed across those eligible repositories.
+- Stars in the dashboard are summed across my own eligible repositories; community project stars are shown separately.
 - Language percentages use GitHub's detected source bytes across up to 40 eligible repositories, ordered by recent push date. They do not measure skill or time spent coding.
+- Community projects are selected from detected public participation, ranked by their stars and forks, and linked to evidence.
 - Recent activity comes from the public events feed; it is a selection, not a complete commit history.
 - Dashboard images live in this repository. No external statistics-card server is needed.
 
 </details>
 
-## 🚀 Projects
+## 🚀 Personal projects
 
 Public projects, refreshed automatically. Start with the source — then make it your own.
 
@@ -114,10 +127,40 @@ Public projects, refreshed automatically. Start with the source — then make it
   <a href="https://github.com/D4rkpt?tab=repositories">Explore all public repositories →</a>
 </p>
 
+## 🌍 Beyond my own repositories
+
+Projects by other maintainers where public GitHub activity shows my participation.
+Featured projects are ranked by stars, then forks — popularity belongs to the project, not to my contribution.
+
+<!-- COMMUNITY:START -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/community-empty-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/community-empty.svg" />
+  <img src="assets/community-empty-dark.svg" width="100%" alt="Community participation — no matching public evidence found in the current lookup" />
+</picture>
+<sub>No matching public participation was found in the current lookup. This does not mean I have never contributed.</sub>
+<!-- COMMUNITY:END -->
+
+<details>
+<summary>🔎 What counts as participation?</summary>
+<br />
+
+- Merged pull request: an authored proposal that was integrated.
+- Open / closed unmerged pull request: an authored proposal, not integrated code.
+- Authored commit: code attributed to my account on a repository's default branch.
+- Opened issue: a report or proposal, not necessarily a code contribution.
+- Review / discussion: code review or comments, not ownership of the project.
+- Every featured card includes links to the matching public evidence.
+- Stars, follows, mentions and creating a fork alone do not qualify.
+- Search is bounded and may miss unindexed activity, unlinked commit emails or non-default branches.
+- Optional repository candidates in `profile-config.json` are checked for evidence; adding a name does not claim participation.
+
+</details>
+
 ## ⚡ Development log
 
 <!-- ACTIVITY:START -->
-No recent public development events are available in the current feed.
+- The first workflow run will pull recent public activity here.
 <!-- ACTIVITY:END -->
 
 ## 👾 Commit arcade
@@ -144,7 +187,6 @@ Your contributions. An alien formation. One relentless ship.
 The animation is powered by [Goblinlordx/commit-invaders](https://github.com/Goblinlordx/commit-invaders).
 The ready-to-use workflow is in [`.github/workflows/commit-invaders.yml`](.github/workflows/commit-invaders.yml).
 It uses the repository owner's username automatically and generates light and dark variants.
-See [SETUP.md](SETUP.md) for configuration and attribution.
 
 </details>
 
