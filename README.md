@@ -77,7 +77,7 @@ These are the technologies I use or study — not a claim that I am an expert in
 </picture>
 
 <!-- SNAPSHOT:START -->
-<sub>Last successful sync: 2026-11-01 UTC · Contribution period: 2025-11-02 → 2026-11-01 · Projects ordered by latest push.</sub>
+<sub>Last successful sync: 2026-11-02 UTC · Contribution period: 2025-11-02 → 2026-11-02 · Projects ordered by latest push.</sub>
 <!-- SNAPSHOT:END -->
 
 <picture>
@@ -114,7 +114,7 @@ Public projects, refreshed automatically. Start with the source — then make it
 <table>
 <tr>
 <td width="50%"><a href="https://github.com/D4rkpt/AutoLauncher-for-PaperMC"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-1-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-1.svg" /><img src="assets/project-1-dark.svg" width="100%" alt="AutoLauncher-for-PaperMC — open source repository" /></picture></a></td>
-<td width="50%"><a href="https://github.com/D4rkpt/PTGC-Legal"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-2-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/project-2.svg" /><img src="assets/project-2-dark.svg" width="100%" alt="PTGC-Legal — open source repository" /></picture></a></td>
+<td></td>
 </tr>
 </table>
 <!-- PROJECTS:END -->
