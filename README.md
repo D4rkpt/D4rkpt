@@ -77,7 +77,7 @@ These are the technologies I use or study — not a claim that I am an expert in
 </picture>
 
 <!-- SNAPSHOT:START -->
-<sub>Last successful sync: 2026-11-12 UTC · Contribution period: 2025-11-09 → 2026-11-12 · Projects ordered by latest push.</sub>
+<sub>Last successful sync: 2026-11-13 UTC · Contribution period: 2025-11-09 → 2026-11-13 · Projects ordered by latest push.</sub>
 <!-- SNAPSHOT:END -->
 
 <picture>
@@ -159,7 +159,6 @@ Featured projects are ranked by stars, then forks — popularity belongs to the 
 - `2026-10-17` · Pushed code to [D4rkpt/AutoLauncher-for-PaperMC](https://github.com/D4rkpt/AutoLauncher-for-PaperMC)
 - `2026-10-17` · Published release [v2.3.0](https://github.com/D4rkpt/AutoLauncher-for-PaperMC/releases/tag/v2.3.0)
 - `2026-10-13` · Pushed code to [D4rkpt/AutoLauncher-for-PaperMC](https://github.com/D4rkpt/AutoLauncher-for-PaperMC)
-- `2026-10-13` · Published release [v2.2.1](https://github.com/D4rkpt/AutoLauncher-for-PaperMC/releases/tag/v2.2.1)
 <!-- ACTIVITY:END -->
 
 ## 👾 Commit arcade
