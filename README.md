@@ -77,7 +77,7 @@ These are the technologies I use or study — not a claim that I am an expert in
 </picture>
 
 <!-- SNAPSHOT:START -->
-<sub>Last successful sync: 2026-11-14 UTC · Contribution period: 2025-11-09 → 2026-11-14 · Projects ordered by latest push.</sub>
+<sub>Last successful sync: 2026-11-15 UTC · Contribution period: 2025-11-16 → 2026-11-15 · Projects ordered by latest push.</sub>
 <!-- SNAPSHOT:END -->
 
 <picture>
